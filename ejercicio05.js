@@ -3,7 +3,6 @@
 
 function calcularAreaRectangulo(ancho, alto) {
     return ancho * alto;
-
 }
 // Exporta la función para que pueda ser utilizada en las pruebas
 module.exports = {
