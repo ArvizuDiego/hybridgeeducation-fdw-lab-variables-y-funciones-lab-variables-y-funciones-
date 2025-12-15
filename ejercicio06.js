@@ -3,7 +3,7 @@
 function celsiusAFahrenheit(celsius) {
     const fahrenheit = (celsius * 9/5) + 32;
     return fahrenheit;
-
+}
 
 // Exporta la función para que pueda ser utilizada en las pruebas
 module.exports = {
