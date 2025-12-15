@@ -6,7 +6,10 @@
 // invertirCadena("anita lava la tina") // debe retornar "anit al aval atina"
 
 function invertirCadena(cadena) {
-    // Escribe tu código aquí
+    const arrayDeCaracteres = cadena.split('');
+    const arrayInvertido = arrayDeCaracteres.reverse();
+    const cadenaInvertida = arrayInvertido.join('');
+    return cadenaInvertida;
 }
 
 // Exporta la función para que pueda ser utilizada en las pruebas
