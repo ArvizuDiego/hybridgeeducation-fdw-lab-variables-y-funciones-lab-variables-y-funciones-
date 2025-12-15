@@ -3,7 +3,6 @@
 
 function saludar(nombre) {
     return `Hola, ${nombre}!`;
-
 }
 // Exporta la función para que pueda ser utilizada en las pruebas
 module.exports = {
