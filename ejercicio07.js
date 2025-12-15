@@ -3,6 +3,7 @@
 function esPar(numero) {
     return numero % 2 === 0;
 
+}
 
 // Exporta la función para que pueda ser utilizada en las pruebas
 module.exports = {
